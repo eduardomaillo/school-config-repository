@@ -14,4 +14,4 @@ spring:
           non_contextual_creation: true
 school-server:
   ribbon:
-    listOfServers: http://localhost:8500, http://localhost:8500
+    listOfServers: http://localhost:8500, http://localhost:8501
