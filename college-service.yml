@@ -12,3 +12,6 @@ spring:
        jdbc:
         lob:
           non_contextual_creation: true
+school-server:
+  ribbon:
+    listOfServer: http://localhost:8500, http://localhost:8500
